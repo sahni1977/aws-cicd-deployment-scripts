@@ -908,7 +908,7 @@ Resources:
           - ''
           - - 'arn:aws:iam::'
             - !Ref 'AWS::AccountId'
-            - ':server-certificate'
+            - ':certificate'
             - /
             - !Ref CertificateName
       LoadBalancerArn: !Ref WSO2EILoadBalancerProd
@@ -928,7 +928,7 @@ Resources:
             - ''
             - - 'arn:aws:iam::'
               - !Ref 'AWS::AccountId'
-              - ':server-certificate'
+              - ':certificate'
               - /
               - !Ref CertificateName
       LoadBalancerArn: !Ref WSO2EILoadBalancerProd
